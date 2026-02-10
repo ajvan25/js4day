@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="circle"></div>
+    <div class="message"></div>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        font-family: Arial, sans-serif;
+      }
+
+      .circle {
+        width: 200px;
+        height: 200px;
+        background-color: #4cafef;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+      }
+
+      .message {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        color: #333;
+        min-height: 1.5em;
+      }
+    </style>
+  </body>
+  <script src="script.js"></script>
+</html>
